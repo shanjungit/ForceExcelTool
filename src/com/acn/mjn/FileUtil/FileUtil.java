@@ -16,6 +16,7 @@ public class FileUtil {
 		System.out.println("Second Change");
 		System.out.println("Third Change");
 		System.out.println("Forth Change");
+		System.out.println("6th Change");
 		char[] chs = new char[length];
 		Arrays.fill(chs, ch);
 		char[] src = str.toCharArray();
