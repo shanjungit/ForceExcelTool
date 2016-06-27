@@ -11,7 +11,7 @@ public class FileUtil {
 		if(str.length() >= length) {
 			return str;
 		}
-		
+		System.out.println("First Change");
 		char[] chs = new char[length];
 		Arrays.fill(chs, ch);
 		char[] src = str.toCharArray();
@@ -21,7 +21,7 @@ public class FileUtil {
 	public List<String> splitBySize(String fileName,int byteSize) {
 		List<String> parts = new ArrayList<String>();
 		File file = new File(fileName);
-		int count = (int)Math.ceil(file.length() / (double))
+		//int count = (int)Math.ceil(file.length() / (double));
 		//int countLen = (count+"").length();
 		return null;
 	}
