@@ -11,7 +11,9 @@ public class FileUtil {
 		if(str.length() >= length) {
 			return str;
 		}
+		
 		System.out.println("First Change");
+		System.out.println("Second Change");
 		char[] chs = new char[length];
 		Arrays.fill(chs, ch);
 		char[] src = str.toCharArray();
